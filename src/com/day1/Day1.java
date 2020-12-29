@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Day1 {
     public static void main(String[] args) {
-
+        // Git check
         // question 1
         System.out.println("Hello");
         System.out.println("World");
