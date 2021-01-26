@@ -1,5 +1,6 @@
 package com;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class question32 {
@@ -12,7 +13,8 @@ public class question32 {
             array[i] = scanner.nextInt();
         }
         for (int num : array) {
-            sum = sum + num;
+            // sum = sum + num;
+            Arrays.stream(array).sorted();
         }
         System.out.println("Sum of array elements is:" + sum);
     }
