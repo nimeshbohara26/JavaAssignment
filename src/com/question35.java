@@ -34,7 +34,6 @@ public class question35 {
 
     // Driver code
     public static void main(String[] args) {
-//        int arr[] = {12, 35, 1, 10, 34, 1};
         Scanner scanner = new Scanner(System.in);
         int[] arr = new int[5];
         System.out.println("Enter five numbers: ");
